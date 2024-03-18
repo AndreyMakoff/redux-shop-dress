@@ -1,0 +1,83 @@
+.navbar-box
+  width: 100%
+  height: 7rem
+  font-size: 1.6rem
+  display: flex
+  flex-direction: row
+  align-items: center
+  background: #463333
+  padding-left: 5rem
+  padding-right: 5rem
+  justify-content: space-between
+  &__logo
+   
+    margin-right: 15rem
+    &:hover
+      cursor: pointer
+  &__list
+    // width: 70rem
+    display: flex
+    flex-direction: row
+    color: white
+    font-size: 2.5rem
+    &__link
+      text-decoration: none
+      color: white
+      margin-right: 5rem
+      transition: 0.5s ease
+      &:hover
+        cursor: pointer
+        color: orange
+        transition: all 1s
+        transform: translateY(-0.2rem) scale(1.2)
+      &:last-child
+        margin-right: 0rem
+  &__login
+    color: white
+    font-size: 1.5rem
+
+  &__cart
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    &__total
+      width: 2rem
+      height: 2rem
+      border-radius: 50%
+      background: #F8991D
+      color: black
+      font-weight: 600
+      margin-right: 1rem
+      font-size: 1.5rem
+      text-align: center
+      // display: flex
+      // justify-content: center
+      // align-items: center
+    &__svg
+      width: 3rem
+      height: 3rem
+  &__search
+    display: flex
+    flex-direction: row
+    &__input
+      background: white
+      padding-left: 1rem
+      font-size: 2rem
+      width: 30rem
+      height: 4rem
+      margin-right: 0.3rem
+      border-radius: 1.4rem 0rem 0rem 1.4rem
+      color: black
+    &__glass
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 4rem
+      height: 4rem
+      background: #F8991D
+      border-radius: 0rem 1.4rem 1.4rem 0rem
+      img
+        width: 2rem
+        height: 1.9rem
+   

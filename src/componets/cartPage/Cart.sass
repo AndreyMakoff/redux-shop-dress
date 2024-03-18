@@ -1,0 +1,85 @@
+.cart-container
+  display: flex
+  align-items: center
+  justify-content: space-around
+  flex-direction: column
+  &__title
+    margin-top: 2rem
+    font-size: 3rem
+    font-weight: 600
+
+  &__box
+    border-radius: 2rem 2rem 2rem 2rem
+    border: solid gray 0.3rem
+    margin-top: 2rem
+    width: 50%
+    padding: 1rem
+    display: flex
+    flex-direction: column
+    margin-bottom: 2rem
+  &__totalPrice
+    margin-top: 2rem
+    font-size: 3rem
+    font-weight: 600  
+  &__box-product
+    padding-left: 3rem
+    padding-right: 3rem
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    height: 15rem
+    margin-bottom: 2rem
+    &:hover
+      cursor: pointer
+ 
+    &__left
+      width: 45rem
+      height: 8rem
+      // border: solid black 0.3rem
+      display: flex
+      flex-direction: row
+      align-items: center
+      &__item
+        width: 16rem
+        height: 13rem
+        background: red
+        margin-right: 2rem
+        border-radius: 2rem 2rem 2rem 2rem
+        // border: solid 0.1rem gray
+        box-shadow: 0.2rem 0.4rem 0.5rem #a7a7a7
+               
+      &__desc
+        color: black
+      &__desc-name
+        font-size: 2rem
+        font-weight: 700
+      &__desc-size
+        font-size: 1.5rem
+      &__desc-color
+        font-size: 1.5rem
+        display: flex
+        flex-direction: row
+        align-items: center
+        &__dot
+          width: 1.5rem
+          height: 1.5rem
+          border-radius: 50%
+          // border: solid 0.1rem black
+          margin-left: 1rem
+    &__button
+      width: 12rem
+      height: 4rem
+      background: orange
+      border-radius: 1rem
+      font-size: 1.8rem
+      transition: 0.5s ease
+      &:hover
+        background: #d21c0f
+        color: #FFFFFF
+        transform: translateY(-0.5rem)
+        transition: all 0.5s
+
+
+    
+  
